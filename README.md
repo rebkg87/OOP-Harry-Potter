@@ -17,10 +17,10 @@ Este proyecto recrea un sistema de personajes del universo de **Harry Potter**, 
 ## Características técnicas
 
 1. **Clases y Objetos**: 
-   - Se definen clases como `Personaje`, `Mago`, `Hechizo`, entre otras, para representar las entidades del mundo de Harry Potter.
+   - Se definen clases como `Character`, `House`, `Spell`, entre otras, para representar las entidades del mundo de Harry Potter.
    
 2. **Herencia**: 
-   - La clase `Personaje` es la clase base, y `Mago` es una subclase que hereda de `Personaje`, entre otras subclases que comparten propiedades.
+   - La clase `Character` es la clase base, y `Professor` es una subclase que hereda de `Character`, entre otras subclases que comparten propiedades.
 
 3. **Polimorfismo**: 
    - Los personajes pueden utilizar distintos tipos de hechizos, y estos hechizos se comportan de manera diferente dependiendo del personaje que los lanza.
@@ -35,23 +35,18 @@ Este proyecto recrea un sistema de personajes del universo de **Harry Potter**, 
 
 1. **Clonar el repositorio**:
    ```bash
-   git clone https://github.com/tu_usuario/harrypotterpoo.git
+   git clone https://github.com/rebkg87/OOP-Harry-Potter.git
    ```
    
 2. **Abrir el proyecto** en tu editor de código favorito.
 
 3. **Ejecutar el proyecto**:
-   Dependiendo de la implementación (puede estar en Java, Python, etc.), asegúrate de tener el entorno de desarrollo configurado correctamente.
+   Asegúrate de tener el entorno de desarrollo configurado correctamente.
    
-   - Si es **Java**:
+   - **Java**:
      ```bash
      javac Main.java
      java Main
-     ```
-
-   - Si es **Python**:
-     ```bash
-     python main.py
      ```
 
 ## Ejemplos de uso
@@ -60,17 +55,17 @@ Una vez que ejecutes el proyecto, podrás ver cómo dos personajes se enfrentan 
 
 **Ejemplo de salida:**
 ```
-¡Harry Potter lanza Expelliarmus!
-¡Voldemort responde con Avada Kedavra!
+¡Harry Potter lanza Avada Kedavra!
+¡Voldemort responde con Expelliarmus!
 ...
-¡Harry Potter gana el duelo!
+¡Harry Potter gana la pelea!
 ```
 
 ## Conceptos de POO aplicados
 
 - **Abstracción**: Se simplifican los personajes y hechizos al enfocarse en las características relevantes para el combate.
 - **Encapsulación**: Los atributos de los personajes y los hechizos están protegidos y se acceden a través de métodos.
-- **Herencia**: Clases como `Personaje`, `Mago`, y otros tipos de personajes heredan propiedades y métodos comunes.
+- **Herencia**: Clases como `Character`, `Professor`, y otros tipos de personajes heredan propiedades y métodos comunes.
 - **Polimorfismo**: Los personajes y hechizos tienen comportamientos diferentes dependiendo del contexto en el que se utilizan.
 - **Interfaces**: Se aplican para permitir que ciertos personajes realicen acciones específicas, como lanzar hechizos avanzados.
 
@@ -86,4 +81,4 @@ Si deseas contribuir a este proyecto, ¡siéntete libre de hacer un fork y envia
 
 ## Contacto
 
-Si tienes preguntas o sugerencias, puedes contactarme a través de [tu email o redes sociales].
+Si tienes preguntas o sugerencias, puedes contactarme a través de [rebe.ga87@gmail.com].
